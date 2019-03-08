@@ -32,13 +32,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the DOM?
 
+Document Object Manager - It is the step between your HTML and what is displayed on the browser.  It is here that the browser can correct errors in your code and the Javascript can change the HTML that the browser with display.
+
 2. What is an event?
+
+An event is *something* that happens on the browser.  Could be a mouse event (like clicking or scrolling), a network event (like losing connection to the internet or a page finishing loading), a viewport event (changing the size of the window), an many many other things.
 
 3. What is an event listener?
 
+An event listener is a bit of code that is waiting, or 'listening', for an event to occur and is ready to execute a bit of code once that event happens.
+
 4. Why would we convert a NodeList into an Array?
 
+So that we can cycle through it and use it in a different way than the Nodelist.  I may be incorrect, but I believe Nodelist is a collection of nodes, meaning they are alive and dependent on other things, while an array is a static form of data.
+
 5. What is a component?
+
+It is my understanding that a component is a small piece of code and logic that can be reused for things and is part of the larger website as a whole.  It takes and extrudes information in a format that the larger code can use in a manageable way.
 
 ### Git Set up
 
